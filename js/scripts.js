@@ -2,8 +2,8 @@
 alert('Hello, ' + name);
 console.log('Hello, ' + name);
 */
-var a = prompt ('Type a');
-var b = prompt ('Type b');
+var a = prompt('Type a');
+var b = prompt('Type b');
 var value = (a * a) + (2 * a * b) - (b * b);
 alert(value);
 console.log(value);
