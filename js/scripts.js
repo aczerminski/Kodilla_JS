@@ -10,4 +10,4 @@ return ('Nieprawidłowe dane'); // przy podaniu ujemnych danych w konsoli nie wy
 }
 return (a * h / 2);
 }
-console.log(getTriangleArea(10, 6))
+console.log(getTriangleArea(a, h));
