@@ -6,4 +6,5 @@ var text = ('Velociraptor is a genus of herbivorous ceratopsid dinosaur that fir
 var dinosaur = 'triceratops';
 var nameUpperCased = dinosaur.toUpperCase();
 var changeWord = text.replace('Velociraptor', nameUpperCased);
-console.log(changeWord.length / 2); // nie wiem jak zrobić, żeby konsola wyświetlała połowę tekstu, a nie połowę znakow
+var partOfText = text.slice(0, 36);
+console.log(partOfText);
