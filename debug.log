@@ -10,3 +10,6 @@
 [0709/114956.109:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
 [0709/114956.115:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
 [0709/114956.117:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0710/070649.341:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0710/070649.347:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
+[0710/070649.349:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
