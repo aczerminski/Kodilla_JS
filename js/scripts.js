@@ -4,7 +4,7 @@
 var buttonClass = document.getElementsByClassName('button');
 console.log(buttonClass);
 
-for (var buttons = 1 ; buttons <= 3 ; buttons++) {
-  var buttonText = buttons.innerText;
-  console.log(buttonText); // namotane, wiem :/ nie potrafię stworzyć instrukcji wywołującej tekst
+for (var index = 0 ; index < buttonClass.length ; index++) {
+  var buttonText = buttonClass[index].innerHTML;
+  console.log(buttonText);
 }
