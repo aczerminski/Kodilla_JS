@@ -1,9 +1,10 @@
 
 var list = document.getElementById('list');
-var add = document.getElementById('addElem');
-add.addEventListener('click', function() {
-    var element = document.createElement('li');
-    element.innerHTML = 'Item';
-    list.appendChild(element);
+var addButton = document.getElementById('addElem');
+
+addButton.addEventListener('click', function(){
+  var element = document.createElement('li');
+  var numberOfElements = document.getElementsByTagName('li').length;
+  element.innerHTML = 'Item ' + numberOfElements;
+  list.appendChild(element);
 });
-// nie wiem skąd ma byc zaciagany numer biezacego elementu "li"
