@@ -114,3 +114,13 @@ function setGamePoints() {
     playerPointsElem.innerHTML = player.score;
     computerPointsElem.innerHTML = computer.score;
 }
+
+function theWinnerIs () {
+  if (player.score === 10) {
+    alert('player.name win');
+  }
+  else if (computer.score === 10) {
+    alert('computer win');
+  }
+}
+theWinnerIs();
