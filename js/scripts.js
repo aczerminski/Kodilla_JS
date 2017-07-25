@@ -118,10 +118,13 @@ function setGamePoints() {
 function theWinnerIs () {
   if (player.score === 10) {
     alert(player.name + ' win');
+    gameState = 'ended';
+    setGameElements();
   }
   else if (computer.score === 10) {
     alert('computer' + ' win');
+    gameState = 'ended';
+    setGameElements();
   }
-  gameState = 'ended';
-  setGameElements();
+
 }
