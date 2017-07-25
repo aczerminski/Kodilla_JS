@@ -122,4 +122,6 @@ function theWinnerIs () {
   else if (computer.score === 10) {
     alert('computer' + ' win');
   }
+  gameState = 'ended';
+  setGameElements();
 }
